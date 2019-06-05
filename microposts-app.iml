@@ -34,6 +34,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v5.2.3, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activestorage (v5.2.3, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v5.2.3, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ansi (v1.5.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v9.0.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.13, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.7.0, asdf: 2.6.3) [gem]" level="application" />
@@ -41,6 +42,7 @@
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.3, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.0.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v11.0.1, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.2, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.2.2, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.4.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.12.2, asdf: 2.6.3) [gem]" level="application" />
@@ -49,11 +51,16 @@
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.8.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.11.1, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="formatador (v0.2.5, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.2, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="guard (v2.15.0, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="guard-compat (v1.2.1, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="guard-minitest (v2.4.6, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.6.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.9.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.1.5, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.2.3, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="lumberjack (v1.0.13, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="marcel (v0.3.3, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="method_source (v0.9.2, asdf: 2.6.3) [gem]" level="application" />
@@ -61,10 +68,14 @@
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.0.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.4.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.11.3, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest-reporters (v1.3.6, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.2.10, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nenv (v0.3.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.3.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.10.3, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="notiffany (v0.1.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v1.1.4, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry (v0.12.2, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v3.12.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.0.7, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v1.1.0, asdf: 2.6.3) [gem]" level="application" />
@@ -75,10 +86,12 @@
     <orderEntry type="library" scope="PROVIDED" name="rake (v12.3.2, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.10.3, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.10.0, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-progressbar (v1.10.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby_dep (v1.5.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.7.4, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-listen (v4.0.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.7, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="shellany (v0.0.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.0.2, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring-watcher-listen (v2.0.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.2, asdf: 2.6.3) [gem]" level="application" />

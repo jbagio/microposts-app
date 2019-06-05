@@ -26,6 +26,10 @@ group :development do
 end
 
 group :test do
+  gem 'guard', '~> 2.15'
+  gem 'guard-minitest', '~> 2.4', '>= 2.4.6'
+  gem 'minitest', '~> 5.8', '>= 5.8.4'
+  gem 'minitest-reporters', '~> 1.3', '>= 1.3.6'
 end
 
 group :production do
