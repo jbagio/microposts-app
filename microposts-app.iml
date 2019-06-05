@@ -36,9 +36,11 @@
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v5.2.3, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ansi (v1.5.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v9.0.0, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="autoprefixer-rails (v9.6.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.13, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.7.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.4.4, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.4.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.3, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.0.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v11.0.1, asdf: 2.6.3) [gem]" level="application" />
@@ -80,6 +82,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.0.7, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v1.1.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v5.2.3, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-controller-testing (v1.0.4, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.0.3, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.4, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v5.2.3, asdf: 2.6.3) [gem]" level="application" />
@@ -91,6 +94,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.7.4, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-listen (v4.0.0, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.7, asdf: 2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sassc (v2.0.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="shellany (v0.0.1, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.0.2, asdf: 2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring-watcher-listen (v2.0.1, asdf: 2.6.3) [gem]" level="application" />

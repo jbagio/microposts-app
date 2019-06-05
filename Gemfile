@@ -5,6 +5,7 @@ ruby '2.6.3'
 
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 gem 'puma', '~> 3.11'
@@ -30,6 +31,7 @@ group :test do
   gem 'guard-minitest', '~> 2.4', '>= 2.4.6'
   gem 'minitest', '~> 5.8', '>= 5.8.4'
   gem 'minitest-reporters', '~> 1.3', '>= 1.3.6'
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
 end
 
 group :production do
