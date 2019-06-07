@@ -3,3 +3,18 @@ maria:
   email: maria@example.com
   phone_number: 07777777777
   password_digest: <%= User.digest('password') %>
+  admin: true
+
+jane:
+  name: Jane Doe
+  email: jane@doe.com
+  phone_number:
+  password_digest: <%= User.digest('password') %>
+
+<% 30.times do |n| %>
+user_<%= n %>:
+  name:  <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  phone_number: n.to_s * 9
+  password_digest: <%= User.digest('password') %>
+<% end %>
