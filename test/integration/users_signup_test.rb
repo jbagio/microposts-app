@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class UsersSignupTest < ActionDispatch::IntegrationTest
-  test 'should not save user if invalid signup' do
+  test 'invalid signup information' do
     get signup_path # optional here, added for conceptual clarity
 
     assert_no_difference 'User.count' do
@@ -15,7 +15,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     assert_select 'div.field_with_errors'
   end
 
-  test 'should save user if valid signup' do
+  test 'valid signup information' do
     get signup_path # optional here, added for conceptual clarity
 
     assert_difference 'User.count', 1 do
@@ -27,5 +27,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     follow_redirect!
     assert_template 'users/show'
     assert_not flash.empty?
+    assert is_logged_in?
   end
 end
