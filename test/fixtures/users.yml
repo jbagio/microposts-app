@@ -4,12 +4,17 @@ maria:
   phone_number: 07777777777
   password_digest: <%= User.digest('password') %>
   admin: true
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
 
 jane:
   name: Jane Doe
   email: jane@doe.com
   phone_number:
   password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
 
 <% 30.times do |n| %>
 user_<%= n %>:
@@ -17,4 +22,7 @@ user_<%= n %>:
   email: <%= "user-#{n}@example.com" %>
   phone_number: n.to_s * 9
   password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
 <% end %>
