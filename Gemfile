@@ -7,10 +7,12 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'bootstrap-will_paginate', '~> 1.0'
+gem 'carrierwave', '~> 1.3', '>= 1.3.1'
 gem 'coffee-rails', '~> 4.2'
 gem 'faker', '~> 1.9', '>= 1.9.3'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'mini_magick', '~> 4.9', '>= 4.9.3'
 gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.3'
 gem 'sass-rails', '~> 5.0'
@@ -39,6 +41,7 @@ group :test do
 end
 
 group :production do
+  gem 'fog', '~> 2.1'
   gem 'pg', '>= 0.18', '< 2.0'
 end
 

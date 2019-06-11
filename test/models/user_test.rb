@@ -21,12 +21,12 @@ class UserTest < ActiveSupport::TestCase
     assert_not @user.valid?
   end
 
-  test 'name should not be too long' do
+  test 'name should be at most 50 characters' do
     @user.name = 'a' * 51
     assert_not @user.valid?
   end
 
-  test 'email should not be too long' do
+  test 'email should be at most 255 characters' do
     @user.email = 'a' * 244 + '@example.com'
     assert_not @user.valid?
   end
@@ -84,6 +84,15 @@ class UserTest < ActiveSupport::TestCase
 
   test 'authenticated? should return false for a user with nil digest' do
     assert_not @user.authenticated?(:remember, '')
+  end
+
+  test 'associted microposts should be destroyed' do
+    @user.save
+    @user.microposts.create!(content: 'Lorem ipsum')
+
+    assert_difference 'Micropost.count', -1 do
+      @user.destroy
+    end
   end
 
 end
