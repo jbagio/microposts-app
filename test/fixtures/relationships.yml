@@ -1,0 +1,11 @@
+one:
+  follower: maria
+  followed: bot
+
+two:
+  follower: jane
+  followed: bot
+
+three:
+  follower: jane
+  followed: maria
